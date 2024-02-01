@@ -1,4 +1,27 @@
 # Dashboard React
+
+This is a demo web dashboard built using ReactJS, showcasing a user-friendly interface with a side menu, dynamic bar graphs, and a product table. The dashboard allows users to seamlessly switch between dark and light modes for a personalized viewing experience. Additionally, a search bar is implemented to facilitate easy data retrieval from the product table.
+
+## Features:
+
+### Side Menu
+The side menu provides quick and intuitive navigation, allowing users to access different sections of the dashboard effortlessly.
+### Graphs
+Interactive bar graphs offer a visual representation of data trends and insights. Users can explore and analyze data dynamically.
+### Product Table
+The product table displays detailed information about various products. Users can easily sort and filter data based on different parameters.
+### Search Bar
+Effortlessly locate specific products using the search bar. The table dynamically updates as you type, making it quick and efficient to find relevant information within your dataset.
+### Dark and Light Mode
+Tailor your dashboard experience with the choice of dark or light mode. Whether you prefer a sleek dark aesthetic for focused analysis or a well-lit environment for a comfortable reading experience, the dashboard adapts to your preferences.
+
+## Dependencies
+#### React
+#### React Router
+#### ReCharts
+#### Bootstrap v-5.2
+#### Other necessary dependencies (specified in package.json)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
