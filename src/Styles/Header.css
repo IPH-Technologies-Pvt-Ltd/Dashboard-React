@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #2b65c2 !important;
+  box-shadow: 0px 1px 1px #888;
+}
+.searchInput::placeholder {
+  color: #d4edff;
+  font-weight: 500;
+  font-size: 15px;
+  align-items: baseline;
+}
+.searchBox {
+  background-color: #4f7fccdf !important;
+  border: none;
+  border-radius: 5px;
+}
+.searchInput {
+  outline: none;
+  border: none;
+  padding: 3px 15px;
+}
+.langSelect {
+  outline: none;
+  border: transparent;
+}

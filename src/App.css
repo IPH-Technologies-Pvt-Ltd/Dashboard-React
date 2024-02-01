@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.App {
+  background-color: #cfcfcf;
+  height: 100vh;
+}
+
+.light-theme {
+  --text-clr: #333;
+  --bg-clr: #f5f5f5;
+  --card-bg-vlr: #fff;
+  --table-caption-bg-clr: #f7f7f7;
+  --table-txt-bg: #ececec;
+}
+.dark-theme {
+  --text-clr: #fff;
+  --bg-clr: #676767;
+  --card-bg-clr: #a5a5a543;
+  --table-caption-bg-clr: #8b8b8b43;
+  --table-txt-bg: #8b8b8b43;
+}
+.dashboard-bg {
+  background-color: var(--bg-clr);
+  color: var(--text-clr);
+  height: auto;
+}
+.status-cards {
+  background-color: var(--card-bg-clr);
+  color: var(--text-clr);
+}
+.table-caption {
+  background-color: var(--table-caption-bg-clr);
+  color: var(--text-clr);
+}
+.table-heading {
+  color: var(--text-clr) !important;
+}
+
+.table thead tr th {
+  color: var(--text-clr) !important;
+  background: transparent !important;
+  font-weight: 600;
+}
+.table tbody tr td {
+  background-color: var(--table-caption-bg-clr) !important;
+  color: var(--text-clr) ip !important;
+}
+.bg-clr {
+  background-color: var(--bg-clr);
+}
+.sidebar-bg {
+  background-color: var(--card-bg-clr);
+  color: var(--text-clr);
+}
+.nav-text a {
+  color: var(--text-clr);
+}
